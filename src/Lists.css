@@ -1,0 +1,26 @@
+.card-hover {
+    transition: transform 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+}
+
+
+button {
+    background: none !important;
+    color: #ffa260 !important;
+    border: 1px solid !important;
+    padding: 1e 2em !important;
+    font-size: 1em !important;
+    transition: all 0.25s !important;
+    border-radius: 10px !important;
+}
+
+#fetch-btn:hover {
+    border-color: #f1ff5c !important;
+    color: white !important;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c !important;
+    transform: translateY(-0.25em) !important;
+    cursor: pointer;
+}
